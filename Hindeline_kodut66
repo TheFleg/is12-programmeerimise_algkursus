@@ -1,0 +1,19 @@
+a=[1,4]
+
+print (sum(a)/len(a))
+
+
+print "----------------"
+
+def fibo(n):
+    a, b = 0, 1
+    for i in xrange(n):
+        yield a
+        a, b = b, a + b
+
+d = int(raw_input("Mitu numbrit?"))
+for i in fibo(d):
+    print i
+
+
+print "----------------"
