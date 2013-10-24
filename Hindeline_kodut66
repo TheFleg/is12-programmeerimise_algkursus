@@ -13,7 +13,7 @@ def fibo(n):
 
 d = int(raw_input("Mitu numbrit?"))
 for i in fibo(d):
-    print i
+    print i,
 
 
-print "----------------"
+print "/n----------------"
