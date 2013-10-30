@@ -1,7 +1,9 @@
-a=[1,4]
 
-print (sum(a)/len(a))
+def keskmine(nr):
 
+        total = sum(nr) / len(nr)
+        
+        print (total)
 
 print "----------------"
 
